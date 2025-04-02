@@ -36,35 +36,4 @@ namespace Vehicles
 
         }
     }
-/*
-    class Car : Vehicle{
-
-    }
-
-    class RaceCar : Car{
-
-    }
-
-
-
-    class Airplane : Vehicle{
-
-    }
-
-    class CargoAirplane : Airplane {
-
-    }
-
-    class Truck : Vehicle{
-
-    }
-
-    class Boat : Vehicle{
-
-    }
-
-    class LuxuryYacht : Vehicle{
-
-    } */
-    
 }
