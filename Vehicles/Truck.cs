@@ -1,8 +1,8 @@
-using system;
+using System;
 using Vehicles;
 
 namespace Vehicles{
-    public class Train : Vehicle
+    public class Truck : Vehicle
     {
         public int loadCapacity;
         public Train(string Name, string Price, double Speed, string VehicleType, int loadCapacity) : 
@@ -23,7 +23,7 @@ namespace Vehicles{
             base.DisplayInfo();
             Console.WriteLine($"Load Capacity: {loadCapacity}");
         }
-        public void double CalculateTax()
+        public double CalculateTax()
         {
             
         }

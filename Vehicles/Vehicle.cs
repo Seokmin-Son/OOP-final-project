@@ -1,4 +1,4 @@
-using system;
+using System;
 
 namespace Vehicles
 {
@@ -6,7 +6,7 @@ namespace Vehicles
         public string Name {get; set;}
         public double Price 
         {
-            get{return Price;}
+            get{return price;}
             set
             {
                 if(price > 0){
@@ -19,11 +19,13 @@ namespace Vehicles
         public double Speed {get; set;}
         public string VehicleType {get; set;}
 
-        public Vehicle(string Name, string Price, double Speed, string VehicleType);
+        public Vehicle(string Name, string Price, double Speed, string VehicleType)
+        {
         Name = name;
         Price = price;
         Speed = speed;
         VehicleType = vehicletype;
+        }
 
         public void DisplayInfo(){
             Console.WriteLine($"Name: {Name}");
@@ -32,7 +34,7 @@ namespace Vehicles
             Console.WriteLine($"VehicleType: {VehicleType}");
         }
 
-        public void double CalculateTax();{
+        public double CalculateTax();{
 
         }
     }

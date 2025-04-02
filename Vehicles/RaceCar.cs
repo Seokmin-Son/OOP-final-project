@@ -1,4 +1,4 @@
-using system;
+using System;
 using Vehicles;
 
 namespace Vehicles{
@@ -7,9 +7,6 @@ namespace Vehicles{
         public int TurboBoost;
         public RaceCar(string Name, string Price, double Speed, string VehicleType,string Model, int HoresePower, int TurboBoost) : 
         base(Name, Price, Speed, VehicleType, Model, HoresePower)
-        {
-            this.TurboBoost = TurboBoost;
-        }
         {
             this.TurboBoost = TurboBoost;
         }
@@ -26,7 +23,7 @@ namespace Vehicles{
             base.DisplayInfo();
             Console.WriteLine($"Turbo Boost: {TurboBoost}");
         }
-        public void double CalculateTax()
+        public double CalculateTax()
         {
         
         }
