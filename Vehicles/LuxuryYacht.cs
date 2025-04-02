@@ -1,4 +1,4 @@
-using system;
+using System;
 using Vehicles;
 
 namespace Vehicles{
@@ -23,7 +23,7 @@ namespace Vehicles{
             base.DisplayInfo();
             Console.WriteLine($"Helipad: {Helipad}");
         }
-        public void double CalculateTax()
+        public void CalculateTax()
         {
             
         }

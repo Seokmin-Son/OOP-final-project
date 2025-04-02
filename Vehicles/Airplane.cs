@@ -1,4 +1,4 @@
-using system;
+using System;
 using Vehicles;
 
 namespace Vehicles{
@@ -27,7 +27,7 @@ namespace Vehicles{
             Console.WriteLine($"Altitude: {Altitude}");
         }
 
-        public void double CalculateTax();{
+        public void CalculateTax(){
 
         }
 

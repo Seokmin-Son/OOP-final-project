@@ -23,7 +23,7 @@ namespace Vehicles{
             base.DisplayInfo();
             Console.WriteLine($"Turbo Boost: {TurboBoost}");
         }
-        public double CalculateTax()
+        public void CalculateTax()
         {
         
         }

@@ -34,7 +34,7 @@ namespace Vehicles
             Console.WriteLine($"VehicleType: {VehicleType}");
         }
 
-        public double CalculateTax();{
+        public void CalculateTax(){
 
         }
     }

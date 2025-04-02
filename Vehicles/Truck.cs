@@ -23,7 +23,7 @@ namespace Vehicles{
             base.DisplayInfo();
             Console.WriteLine($"Load Capacity: {loadCapacity}");
         }
-        public double CalculateTax()
+        public void CalculateTax()
         {
             
         }
