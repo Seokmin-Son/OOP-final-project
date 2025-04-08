@@ -9,8 +9,8 @@ namespace Vehicles
             get{return price;}
             set
             {
-                if(price > 0){
-                Price = price;
+                if(value > 0){
+                Price = value;
                 } else{
                     Console.WriteLine("Not a valid number of price");       
                 }
@@ -34,8 +34,6 @@ namespace Vehicles
             Console.WriteLine($"VehicleType: {VehicleType}");
         }
 
-        public void CalculateTax(){
-
-        }
+        public abstract double CalculateTax();
     }
 }

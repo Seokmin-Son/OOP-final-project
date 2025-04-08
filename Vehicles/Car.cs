@@ -34,8 +34,8 @@ namespace Vehicles{
             Console.WriteLine($"Model: {Model}");
             Console.WriteLine($"Horse Power: {HoresePower}");
         }
-        publlic void CalculateTax(){
-            
+        publlic override double CalculateTax(){
+            return Price * 0.10;            
         }
     }
 }

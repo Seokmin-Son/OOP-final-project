@@ -27,8 +27,8 @@ namespace Vehicles{
             Console.WriteLine($"Altitude: {Altitude}");
         }
 
-        public void CalculateTax(){
-
+        public override double CalculateTax(){
+            return Price * 0.15;
         }
 
     }

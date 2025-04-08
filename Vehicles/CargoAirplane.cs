@@ -23,8 +23,8 @@ namespace Vehicles{
             base.DisplayInfo();
             Console.WriteLine($"Cargo Capacity: {CargoCapacity}");
         }
-        public void CalculateTax(){
-            
+        public override double CalculateTax(){
+            return Price * 0.15;            
         }
 
     }

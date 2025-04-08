@@ -5,7 +5,7 @@ namespace Vehicles{
     public class Truck : Vehicle
     {
         public int loadCapacity;
-        public Train(string Name, string Price, double Speed, string VehicleType, int loadCapacity) : 
+        public Truck(string Name, string Price, double Speed, string VehicleType, int loadCapacity) : 
         base(Name, Price, Speed, VehicleType)
         {
             this.loadCapacity = loadCapacity;
@@ -23,9 +23,8 @@ namespace Vehicles{
             base.DisplayInfo();
             Console.WriteLine($"Load Capacity: {loadCapacity}");
         }
-        public void CalculateTax()
-        {
-            
+        public override double CalculateTax(){
+            return Price * 0.20;
         }
     }
 }

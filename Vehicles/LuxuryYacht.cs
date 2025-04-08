@@ -23,9 +23,9 @@ namespace Vehicles{
             base.DisplayInfo();
             Console.WriteLine($"Helipad: {Helipad}");
         }
-        public void CalculateTax()
+        public override double CalculateTax()
         {
-            
+            return Price * 0.05;
         }
 
 

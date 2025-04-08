@@ -23,9 +23,8 @@ namespace Vehicles{
             base.DisplayInfo();
             Console.WriteLine($"Turbo Boost: {TurboBoost}");
         }
-        public void CalculateTax()
-        {
-        
+        public override double CalculateTax(){
+            return Price * 0.10;          
         }
 
     }
